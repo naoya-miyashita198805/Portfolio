@@ -188,25 +188,26 @@
 }
 .contact-head {
   font-size: 45px;
-  color:rgb(127, 190, 241);
+  color:rgb(24, 241, 140);
   text-align: center;
   margin-bottom: 15px;
 }
 .action {
-  color: rgb(127, 190, 241);
+  color: rgb(24, 241, 140);
   font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
 }
 .icon-box {
   text-align: center;
+  position: flex;
 }
 .icon-git {
   color: rgb(184, 56, 209);
   margin-right: 20px;
 }
 .icon-tweet {
-  color: rgb(9, 140, 216);
+  color: rgba(29,161,242,1.00);
   margin-right: 20px;
 }
 .icon-qiita {
