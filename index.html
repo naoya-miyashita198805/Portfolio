@@ -6,7 +6,14 @@
   <title>Naoyaーportfolio</title>
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="small.css" media="screen and (max-width:480px)">
+  <!-- /*画面サイズが480pxまでこのファイルのスタイルが適用される。*/ -->
+  <link rel="stylesheet" href="medium.css" media="screen and (min-width:480px) and (max-width:1024px)">
+   <!-- /* 画面サイズ480pxから1024pxまではこのファイルのスタイルが適用される。 */ -->
+  <link rel="stylesheet" href="style.css" media="screen and (min-width:1024px)">
+  <!-- /* 画面サイズ1024p -->
+  
 </head>
 <body>
   <div class ="page-top">
@@ -19,6 +26,9 @@
         制作物
       </li>
       <li class ="infomation-list">
+        SKILL
+      </li>
+      <li class ="infomation-list">
         SNS
       </li>
     </ul>
@@ -29,54 +39,10 @@
     <div class ="about-contents">
       <div class ="about-content">
         <div class ="photo-box">
-          <div class ="photo"></div>
+          <div class ="photo">
+            <img src="./images/myself.png" alt="naoya-icon" class ="icon-image">
+          </div>
           <div class ="team">
-            <ul class ="team-lists">
-              <!-- <li class = "team-list">
-                モチベーションタイプ分析
-              </li>
-              <li class = "team-list">
-                達成支配型欲求(意志薄弱は避けたい)：30%
-              </li>
-              <li class = "team-list">
-                貢献調停型欲求(人の役に立ちたい)：40% ★
-              </li>
-              <li class = "team-list">
-                論理探究型欲求(様々な知識を吸収したい)：10%
-              </li>
-              <li class = "team-list">
-                審美創造型欲求(楽しいことを計画したい)：20%
-              </li> -->
-              <li class = "team-list" style ="text-align: center;">
-                自己分析
-              </li>
-              <li class = "team-list" style="border-bottom: 1px solid #ccc;">
-                貢献調停型欲求(人の役に立ちたい)
-              </li>
-              <li class = "team-list">
-                理由：前職の営業活動でお客様の「君だから入った（契約した）」、「あなたが担当でよかった」「ありがとう」といった感謝の声がモチベーションが上がる根幹であったため。
-              </li>
-              
-              <li class = "team-list" style="border-bottom: 1px solid #ccc;">
-                持ち運び可能な能力(ポータブルスキル)分析
-              </li>
-              <li class = "team-list">
-                対自分：忍耐、規律、慎重
-              </li>
-              <li class = "team-list">
-                対人：傾聴、受容、協調
-              </li>
-              <li class = "team-list">
-                対課題：計画、推進
-              </li>
-              <li class = "team-list">
-                
-              </li>
-              <li class = "team-list">
-                参考：THE TEAM 5つの法則　より
-              </li>
-            </ul>
-            
           </div>
         </div>
         <div class ="introduction-box">
@@ -103,41 +69,40 @@
               スキル：前職の経験を生かし、将来に渡って資産形成、保険のご相談が可能です。
             </li>
             <li class ="introduction">
-              言語：HTML/CSS, JavaScript, Ruby
-            </li>
-            <li class ="introduction">
-              フレームワーク：Ruby on Rails, haml, Sass(SCSS)
-            </li>
-            <li class ="introduction">
-              ライブラリ：jQuery
-            </li>
-            <li class ="introduction">
-              データベース：MySQL
-            </li>
-            <li class ="introduction">
-              TODOアプリ：trello
-            </li>
-            <li class ="introduction">
-              ツール：Github
-            </li>
-            <li class ="introduction">
-              インフラストラクチャー：AWS(S3)
-            </li>
-            <li class ="introduction">
-              クラウドプラットフォーム：Heroku
-            </li>
-            <li class ="introduction">
               現在学習中：python
             </li>
             <li class ="introduction">
               現在読書中：新訳 ハイパワー・マーケティング 著者： ジェイ・エイブラハム
             </li>
+          </ul></br>
+          <div class ="MySearch">自己分析</div>
+          <ul class = "search-lists" >
+            <li class = "search-list" style="border-bottom: 1px solid #ccc;">
+              貢献調停型欲求(人の役に立ちたい)
+            </li>
+            <li class = "search-list">
+              理由：前職の営業活動でお客様の「君だから入った（契約した）」、「あなたが担当でよかった」「ありがとう」といった感謝の声がモチベーションが上がる根幹であったため。
+            </li>
+            <li class = "search-list" style="border-bottom: 1px solid #ccc;">
+              持ち運び可能な能力(ポータブルスキル)分析
+            </li>
+            <li class = "search-list">
+              対自分：忍耐、規律、慎重
+            </li>
+            <li class = "search-list">
+              対人：傾聴、受容、協調
+            </li>
+            <li class = "search-list">
+              対課題：計画、推進、責任
+            </li>
+            <li class = "search-list">
+              参考：</br>「THE TEAM 5つの法則」</br>著者：麻野 耕司</br>「メモの魔力」</br>著者：前田 裕二　より
+            </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class ="skill-box">
-    </div>
+    <div class ="skill-box"></div>
   </div>
 
   <div class ="production">
@@ -147,28 +112,118 @@
         <div class ="my-projects">
           <div class ="portfolio">
             <p class ="genre">個人開発</p>
-            <p class ="portfolio-title">Doc-style</p>
-            <p class ="check">画像をクリックするとGithubへ遷移します</p>
-            <a href="https://github.com/naoya-miyashita198805/Doc-style" target="_blank"><div class ="portfolio-image"></div></a>
-            <p class ="check">HTML/CSS(SCSS), jQuery, Ruby on Rails (デプロイ済)</p>
+            <div>
+              <p class ="portfolio-title">Doc-style</p>
+              <p class ="check">画像をクリックするとGithubへ遷移します</p>
+              <a href="https://github.com/naoya-miyashita198805/Doc-style" target="_blank"><div class ="portfolio-image"></div></a>
+              <p class ="check">HTML/CSS(SCSS), jQuery, Ruby on Rails (デプロイ済)</p>
+            </div>
           </div>
         </div>
         <div class ="team-projects">
           <div class ="portfolio">
             <p class ="genre">チーム開発</p>
-            <p class ="portfolio-title">freemarket_sample_68e</p>
-            <p class ="check">画像をクリックするとGithubへ遷移します</p>
-            <a href="https://github.com/naoya-miyashita198805/freemarket_sample_68e" target="_blank"><div class ="portfolio-image2"></div></a>
-            <p class ="check">HTML/CSS(SCSS),haml, jQuery, Ruby on Rails (デプロイ済)</p>
+            <div>
+              <p class ="portfolio-title">freemarket_sample_68e</p>
+              <p class ="check">画像をクリックするとGithubへ遷移します</p>
+              <a href="https://github.com/naoya-miyashita198805/freemarket_sample_68e" target="_blank"><div class ="portfolio-image2"></div></a>
+              <p class ="check">HTML/CSS(SCSS),haml, jQuery, Ruby on Rails (デプロイ済)</p>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class ="skills">
+    <div class ="skill-head">SKILL</div>
+    <p class ="action" style ="color: black;">緑色のバーは作業頻度を表しています。</p>
+    <div class ="skill-box">
+      <div class ="skill-left-content">
+        <ul class="language">言語：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 38%;">
+              HTML/CSS
+            </li>
+          </div>
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 57%;">
+              JavaScript
+            </li>
+          </div>
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 50%;">
+              Ruby
+            </li>
+          </div>
+        </ul>
+        <ul class="language">フレームワーク：
+          <div class ="parameter">
+            <li class ="skill"style ="background-color: rgb(61, 248, 117,0.7); margin-right: 28%;">
+              Ruby on Rails
+            </li>
+          </div>
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 33%;">
+              haml
+            </li>
+          </div>
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 20%;">
+              Sass(SCSS)
+            </li>
+          </div>
+        </ul>
+        <ul class="language">ライブラリ：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 50%;">
+              jQuery
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class ="skill-right-content">
+        <ul class="language">データベース：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 65%;">
+              MySQL
+            </li>
+          </div>
+        </ul>
+        <ul class="language">TODOアプリ：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 58%;">
+              trello
+            </li>
+          </div>
+        </ul>
+        <ul class="language">ツール：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 30%;">
+              Github
+            </li>
+          </div>
+        </ul>
+        <ul class="language">インフラストラクチャー：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 44%;">
+              AWS(S3)
+            </li>
+          </div>
+        </ul>
+        <ul class="language">クラウドプラットフォーム：
+          <div class ="parameter">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 88%;">
+              Heroku
+            </li>
+          </div>
+        </ul>
       </div>
     </div>
   </div>
   <div class ="footer">
     <div class ="contact">
       <div class ="contact-head">SNS</div>
-      <p class ="action">TwetterのDMが一番返信が早いです</p>
+      <p class ="action">TwetterのDMが一番返信が早いです。</p>
       <div class ="icon-box">
         <a href="https://github.com/naoya-miyashita198805" class ="icon-git" target ="_blank"><i class="fab fa-github-square fa-3x"></i></a>
         <a href="https://twitter.com/Naoya_198805" class ="icon-tweet" target ="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
