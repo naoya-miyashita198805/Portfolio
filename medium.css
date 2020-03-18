@@ -1,28 +1,27 @@
+/* ipadサイズ */
 /* １枚目 */
+
 .page-top{
   /* background-color: red; */
   width: 100%;
-  height: 100vh;
-  /* background-image: url(./images/notebook.png);
-  background-size: cover;
-  background-position: center; */
+  height: 100%;
   padding: 80px;
   background: url(./images/notebook.png);
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .title {
   color: #fff;
-  font-size: 80px;
+  font-size: 30px;
   font-weight: bold;
 }
 .infomation {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .infomation-list {
   color: #fff;
-  font-size: 30px;
+  font-size: 15px;
 }
 /* １枚目 ここまで*/
 
@@ -30,35 +29,33 @@
 .about{
   /* background-color: blue; */
   width: 100%;
-  height: 100vh;
-  padding: 30px 80px;
+  height: 100%;
+  padding: 10px 10px;
 }
 .heading {
-  font-size: 45px;
+  font-size: 30px;
   color: black;
   text-align: center;
   margin-bottom: 15px;
 }
 .about-contents {
   width: 100%;
-  
+  /* height: 100%; */
 }
 .about-content {
-  display:  flex;
+  /* display:  flex; */
   width: 100%;
   height: 100%;
 }
 .photo-box {
-  width: 33%;
-  height: 400px;
 }
 .photo {
   text-align: center;
 }
 .icon-image {
   border-radius: 50%;
-  padding: 20px;
-  width: 70%;
+  padding: 30px;
+  width: 50%;
   height: 70%;
 }
 .team{
@@ -67,23 +64,19 @@
   /* background-color: cadetblue; */
   padding: 10px;
 }
-.MySearch {
-  font-size: 30px;
-  margin: 30px 0 15px;
-}
 .search-list {
   list-style: none;
   margin-bottom: 2px;
 }
 .introduction-box {
-  width: calc(100% - 33%);
+  /* width: calc(100% - 33%); */
   height: 100%;
   padding: 0 20px;
   /* background-color: blueviolet; */
 }
 .introduction{
   list-style: none;
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-bottom: 5px;
 }
 /* .skill-box {
@@ -99,10 +92,10 @@
   background-color: rgb(127, 190, 241);
   width: 100%;
   height: 100%;
-  padding: 30px 80px;
+  padding: 10px 40px;
 }
 .production-head {
-  font-size: 45px;
+  font-size: 30px;
   color: #fff;
   text-align: center;
   margin-bottom: 15px;
@@ -125,7 +118,7 @@
 }
 .portfolio-title {
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 5px;
   color: #fff;
@@ -133,12 +126,13 @@
 .check {
   color: #fff;
   text-align: center;
+  font-size: 12px;
 }
 .portfolio-image {
   background-image: url(./images/Doc-style.png);
   background-size: cover;
-  width: 40%;
-  height: 300px;
+  width: 60%;
+  height: 25vh;
   margin: 0 auto;
   margin-bottom: 10px;
   border: 1px solid #fff;
@@ -148,8 +142,8 @@
 .portfolio-image2 { 
   background-image: url(./images/freeMarket.png);
   background-size: cover;
-  max-width: 40%;
-  height: 300px;
+  max-width: 60%;
+  height: 25vh;
   margin: 0 auto;
   margin-bottom: 10px;
   border: 1px solid #fff;
@@ -168,15 +162,14 @@
 
 /* ３枚目 制作物 ここまで*/
 
-/* 4枚目 SKILL */
-
+/* 4枚目 Skill */
 .skills {
   width: 100%;
   height: 100%;
-  padding: 30px 80px;
+  padding: 10px 0 10px 20px;
 }
 .skill-head {
-  font-size: 45px;
+  font-size: 30px;
   color: black;
   text-align: center;
   margin-bottom: 15px;
@@ -201,21 +194,22 @@
 .skill-box {
   width: 100%;
   height: 100%;
-  display: flex;
+  /* display: flex; */
 }
 .skill-left-content {
   /* justify-content: space-around; */
-  width: 50%;
+  /* width: 50%; */
 }
 .skill-right-content {
   /* justify-content: space-around; */
-  width: 50%;
+  /* width: 50%; */
 }
 
 .skill-bar {
   width: 100%;
   height: 33%;
 }
+
 /* 5枚目 SNS紹介 */
 .footer {
   background-color: rgb(56, 55, 55);
@@ -224,14 +218,14 @@
   padding: 50px 0;
 }
 .contact-head {
-  font-size: 45px;
-  color:#fff;
+  font-size: 30px;
+  color: #fff;
   text-align: center;
   margin-bottom: 15px;
 }
 .action {
   color: #fff;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -242,18 +236,22 @@
 .icon-git {
   color: rgb(184, 56, 209);
   margin-right: 20px;
+  font-size: 12px;
 }
 .icon-tweet {
   color: rgba(29,161,242,1.00);
   margin-right: 20px;
+  font-size: 12px;
 }
 .icon-qiita {
   color: rgb(11, 192, 41);
   margin-right: 20px;
+  font-size: 12px;
 }
 .icon-blog {
   color: #fff;
   margin-right: 20px;
+  font-size: 12px;
 }
 /* ４枚目 SNS紹介 ここまで*/
 
