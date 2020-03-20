@@ -139,6 +139,17 @@
   background-position: center;
   object-fit: contain;
 }
+.portfolio-image1 {
+  background-image: url(./images/portfolio.png);
+  background-size: cover;
+  width: 60%;
+  height: 25vh;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  background-position: center;
+  object-fit: contain;
+}
 .portfolio-image2 { 
   background-image: url(./images/freeMarket.png);
   background-size: cover;

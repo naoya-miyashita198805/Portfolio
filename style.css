@@ -137,7 +137,18 @@
 .portfolio-image {
   background-image: url(./images/Doc-style.png);
   background-size: cover;
-  width: 40%;
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  background-position: center;
+  object-fit: contain;
+}
+.portfolio-image1 {
+  background-image: url(./images/portfolio.png);
+  background-size: cover;
+  width: 70%;
   height: 300px;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -164,6 +175,13 @@
   margin: 5px 0;
   padding: 5px;
   border: 1px solid #fff;
+}
+.portfolio-box{
+  display: flex;
+  overflow: scroll;
+}
+.my-project {
+  width: 50%;
 }
 
 /* ３枚目 制作物 ここまで*/
