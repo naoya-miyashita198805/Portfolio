@@ -13,23 +13,27 @@
    <!-- /* 画面サイズ480pxから1024pxまではこのファイルのスタイルが適用される。 */ -->
   <link rel="stylesheet" href="style.css" media="screen and (min-width:1024px)">
   <!-- /* 画面サイズ1024p -->
-  
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./portfolio.js"></script>
+  <!-- <script src="slick.js" type="text/javascript"></script> -->
+</head> 
 <body>
+  
+	
   <div class ="page-top">
     <!-- <img src="./images/notebook.png" alt="" class ="top-image"> -->
     <div class ="title">Naoya's Portfolio</div>
     <ul class ="infomation">
-      <li class ="infomation-list">
+      <li class ="infomation-list" id ="about">
         自己紹介
       </li>
-      <li class ="infomation-list">
+      <li class ="infomation-list" id ="port">
         制作物
       </li>
-      <li class ="infomation-list">
+      <li class ="infomation-list" id ="skill">
         SKILL
       </li>
-      <li class ="infomation-list">
+      <li class ="infomation-list" id ="sns">
         SNS
       </li>
     </ul>
@@ -138,11 +142,13 @@
         <div class ="team-projects">
           <div class ="portfolio">
             <p class ="genre">チーム開発</p>
-            <div class ="team-project">
-              <p class ="portfolio-title">freemarket_sample_68e</p>
-              <p class ="check">画像をクリックするとGithubへ遷移します</p>
-              <a href="https://github.com/naoya-miyashita198805/freemarket_sample_68e" target="_blank"><img src="./images/freeMarket.png" alt="" class ="portfolio-image"></a>
-              <p class ="check">HTML/CSS(SCSS),haml, jQuery, Ruby on Rails (AWS デプロイ済)</p>
+            <div class ="portfolio-box">
+              <div class ="team-project">
+                <p class ="portfolio-title">freemarket_sample_68e</p>
+                <p class ="check">画像をクリックするとGithubへ遷移します</p>
+                <a href="https://github.com/naoya-miyashita198805/freemarket_sample_68e" target="_blank"><img src="./images/freeMarket.png" alt="" class ="portfolio-image"></a>
+                <p class ="check">HTML/CSS(SCSS),haml, jQuery, Ruby on Rails (AWS デプロイ済)</p>
+              </div>
             </div>
           </div>
         </div>
@@ -239,7 +245,10 @@
         </ul>
       </div>
     </div>
+    
   </div>
+
+  
   <div class ="footer">
     <div class ="contact">
       <div class ="contact-head">SNS</div>
@@ -251,6 +260,8 @@
         <a href="https://naoya-198805.hatenablog.com/" class ="icon-blog" target ="_blank"><i class="fas fa-rss-square fa-3x"></i></a>
       </div>
     </div>
+  <p id="PageTop" class="PageTop"><a href="#" >ページトップへ</a></p>
+
   </div>
   <!-- <div class ="menu-bar">
     <i class ="fas fa-bars"></i>
