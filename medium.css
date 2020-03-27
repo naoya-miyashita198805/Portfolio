@@ -31,6 +31,10 @@
   width: 100%;
   height: 100%;
   padding: 10px 10px;
+  /* フェードインしたい場合は私とのコードをコメントアウト解除 */
+  /* opacity : 0;
+  transform: translateY(20px);
+  transition: all 1.5s; */
 }
 .heading {
   font-size: 30px;
