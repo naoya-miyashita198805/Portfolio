@@ -21,25 +21,27 @@
   
 	
   <div class ="page-top">
-    <!-- <img src="./images/notebook.png" alt="" class ="top-image"> -->
-    <div class ="title">Naoya's Portfolio</div>
-    <ul class ="infomation">
-      <li class ="infomation-list" id ="about">
-        自己紹介
-      </li>
-      <li class ="infomation-list" id ="port">
-        制作物
-      </li>
-      <li class ="infomation-list" id ="skill">
-        SKILL
-      </li>
-      <li class ="infomation-list" id ="sns">
-        SNS
-      </li>
-    </ul>
+    <img src="./images/notebook.png" alt="" class ="top-image">
+    <div class ="page-top-box">
+      <div class ="title">Naoya's Portfolio</div>
+      <ul class ="infomation">
+        <li class ="infomation-list" id ="about">
+          <a href="#about-section" class ="scroll-action">自己紹介</a>
+        </li>
+        <li class ="infomation-list" id ="port">
+          <a href="#production-section" class ="scroll-action">制作物</a>
+        </li>
+        <li class ="infomation-list" id ="skill">
+          <a href="#skills-section" class ="scroll-action">SKILL</a>
+        </li>
+        <li class ="infomation-list" id ="sns">
+          <a href="#footer-section" class ="scroll-action">SNS</a>
+        </li>
+      </ul>
+    </div>
   </div>
 
-  <div class ="about">
+  <div class ="about" id = "about-section">
     <div class ="heading">自己紹介</div>
     <div class ="about-contents">
       <div class ="about-content">
@@ -108,9 +110,10 @@
       </div>
     </div>
     <div class ="skill-box"></div>
+    <a href="#production-section" class ="scroll-actionInabout" >制作物<i class="fas fa-chevron-down" style ="margin-left: 10px;"></i></a>
   </div>
 
-  <div class ="production">
+  <div class ="production" id ="production-section">
     <div class ="production-head">制作物</div>
     <div class ="production-box">
       <div class ="portfolios">
@@ -154,8 +157,9 @@
         </div>
       </div>
     </div>
+    <a href="#skills-section" class ="scroll-actionInSkill">SKILL<i class="fas fa-chevron-down" style ="margin-left: 10px;"></i></a>
   </div>
-  <div class ="skills">
+  <div class ="skills" id ="skills-section">
     <div class ="skill-head">SKILL</div>
     <p class ="action" style ="color: black;">緑色のバーは作業頻度を表しています。</p>
     <div class ="skill-box">
@@ -201,7 +205,7 @@
         </ul>
         <ul class="language">ライブラリ：
           <div class ="parameter">
-            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 53%;">
+            <li class ="skill" style ="background-color: rgb(61, 248, 117,0.7); margin-right: 44%;">
               jQuery
             </li>
           </div>
@@ -249,7 +253,7 @@
   </div>
 
   
-  <div class ="footer">
+  <div class ="footer" id ="footer-section">
     <div class ="contact">
       <div class ="contact-head">SNS</div>
       <p class ="action">TwetterのDMが一番返信が早いです。</p>
@@ -261,6 +265,7 @@
       </div>
     </div>
   <p id="PageTop" class="PageTop"><a href="#" >ページトップへ</a></p>
+  <p id="PageTop-arrow" class="PageTop-arrow"><a href="#" ><i class="fas fa-chevron-up"></i></a></p>
 
   </div>
   <!-- <div class ="menu-bar">

@@ -1,4 +1,14 @@
 $(function(){
+
+  // セクションスクロール
+  $('a[href^="#"]').click(function(){
+    var speed = 500;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
   // フェードイン自己紹介
   $(window).scroll(function (){
     $('.about').each(function(){
@@ -60,6 +70,22 @@ $(function(){
 		}
 	});
 	$('#PageTop').on('click',function(){
+		$('html,body').animate({
+			scrollTop: 0 }, 200);
+      return false;
+      // return false;は、aタグのリンクである「#」を消すために必要なので、必ず記入
+    });
+  $('#PageTop-arrow').hide();
+	$(window).scroll(function(){
+    // 200px動かすと出現
+		if ($(this).scrollTop() > 600) {
+			$('#PageTop-arrow').fadeIn();
+		}
+		else {
+			$('#PageTop-arrow').fadeOut();
+		}
+	});
+	$('#PageTop-arrow').on('click',function(){
 		$('html,body').animate({
 			scrollTop: 0 }, 200);
       return false;
