@@ -111,12 +111,12 @@
   margin-top: 7px;
   width: 120px;
   border-radius: 4px;
-  box-shadow: 0 5px 0 cornflowerblue;
+  /* box-shadow: 0 5px 0 cornflowerblue; */
   margin-bottom: 20px;
 }
 .scroll-actionInabout:active {
-  box-shadow: none;
-  transform: translate3d(0, 5px, 0);
+  /* box-shadow: none;
+  transform: translate3d(0, 5px, 0); */
   
 }
 
@@ -197,15 +197,15 @@
   border-radius: 4px;
   text-align: center;
   margin-bottom: 20px;
-  /* ボタン装飾 */
-  box-shadow: 0 5px 0 rgb(156, 156, 156);
+  /* ボタン装飾 スマホは機能しないのでコメントアウト*/
+  /* box-shadow: 0 5px 0 rgb(156, 156, 156); */
 
   
 }
 .scroll-actionInSkill:active {
   /* ボタン装飾 */
-  box-shadow: none;
-  transform: translate3d(0, 5px, 0);
+  /* box-shadow: none;
+  transform: translate3d(0, 5px, 0); */
 }
 /* ３枚目 制作物 ここまで*/
 
