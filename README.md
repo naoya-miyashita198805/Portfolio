@@ -3,6 +3,7 @@
 
 ## 制作に至った経緯
 　情報の集約のため。Herokuを用いてデプロイをするため。
+　https://naoya-portfolio.herokuapp.com/index.html
 <img width="1440" alt="スクリーンショット 2020-03-20 19 02 57" src="https://user-images.githubusercontent.com/59730607/77153653-7e72f080-6add-11ea-83c4-4a3df3e7f76c.png">
 
 ## 工夫した点
@@ -16,6 +17,8 @@
 * (min-width:1024px)　PCサイズ
 <img width="1440" alt="スクリーンショット 2020-03-20 18 58 49" src="https://user-images.githubusercontent.com/59730607/77153328-ebd25180-6adc-11ea-9828-ccd652931569.png">
 
-## 今後実装するならば
-　jsでscrollTop()を実装して利便性を向上させる。
+　jQueryを用いてページごとの移動やトップへ戻るアクションを実装し利便性を向上させました。
+![c183c5e80a6398989a590de63a93d8b7](https://user-images.githubusercontent.com/59730607/77735304-b1713300-704d-11ea-8ece-b82f71f13da0.gif)
 
+## 今後実装するならば
+　slickの実装

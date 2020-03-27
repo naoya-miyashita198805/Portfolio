@@ -9,8 +9,8 @@
 
 .page-top-box {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 20px;
+  left: 20px;
   
 }
 
@@ -33,12 +33,39 @@
 .infomation-list {
   margin-top: 5px;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
 }
 .scroll-action {
   /* text-decoration: none; */
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
+
+  position:relative;
+  text-align:center;
+  display:inline-block;
+  padding:.2em 2.5em .2em 0;
+  text-decoration:none;
+  color:#fff;
+  /* margin:15px 0; */
+  /* font-size:1.5em; */
+  /* font-weight:bold; */
+  /* line-height:1.3em; */
+  
+  /* background: linear-gradient(to bottom, rgba(0,159,52,1) 0%,rgba(0,197,65,1) 100%); */
+  /* border-radius:15px; */
+  /* border:2px outset #6c6; */
+  /* box-shadow:1px 1px 10px #666; */
+}
+.scroll-action:after{
+  position:absolute;
+  top:45%;
+  right:.5em;
+  transform: translateY(-50%);
+  content: "≫";
+  animation:infinite movearrow 1.5s ;
+}
+@keyframes movearrow {
+  0%{margin:0 15px 0 -15px;opacity:.3;}
 }
 /* １枚目 ここまで*/
 
