@@ -2,21 +2,27 @@
 .page-top{
   /* background-color: red; */
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  /* padding: 80px; */
   /* background-image: url(./images/notebook.png);
-  background-size: cover;
-  background-position: center; */
-  padding: 80px;
-  background-image: url("./images/notebook.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
-/* .top-image {
+.page-top-box {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+.top-image {
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
   background-size: cover;
-} */
+  object-fit: contain;
+}
+
 .title {
   color: #fff;
   font-size: 80px;
@@ -26,8 +32,14 @@
   margin-left: 50px;
 }
 .infomation-list {
+  margin-top: 7px;
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
+}
+.scroll-action {
+  /* text-decoration: none; */
+  color: #fff;
+  font-size: 40px;
 }
 /* １枚目 ここまで*/
 
@@ -93,6 +105,23 @@
   list-style: none;
   font-size: 20px;
   margin-bottom: 5px;
+}
+.scroll-actionInabout {
+  font-size: 30px;
+  text-decoration: none;
+  background-color: rgb(127, 190, 241);
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7px;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 cornflowerblue;
+}
+.scroll-actionInabout:active {
+  box-shadow: none;
+  transform: translate3d(0, 5px, 0);
 }
 /* .skill-box {
   width: 100%;
@@ -197,6 +226,28 @@
   margin: 0 auto;
 }
 
+.scroll-actionInSkill {
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #fff;
+  color: rgb(127, 190, 241);
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+  width: 150px;
+  border-radius: 4px;
+  text-align: center;
+
+  /* ボタン装飾 */
+  box-shadow: 0 5px 0 rgb(156, 156, 156);
+
+  
+}
+.scroll-actionInSkill:active {
+  /* ボタン装飾 */
+  box-shadow: none;
+  transform: translate3d(0, 5px, 0);
+}
 
 /* ３枚目 制作物 ここまで*/
 
@@ -311,6 +362,10 @@
   background: #323944;
   border: 1px solid #fff;
   opacity: 10;
+}
+
+.PageTop-arrow a {
+  opacity: 0;
 }
 /* ４枚目 SNS紹介 ここまで*/
 
