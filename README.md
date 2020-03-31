@@ -4,7 +4,7 @@
 ## 制作に至った経緯
 　情報の集約のため。Herokuを用いてデプロイをするため。
 　https://naoya-portfolio.herokuapp.com/index.html
-<img width="1440" alt="スクリーンショット 2020-03-20 19 02 57" src="https://user-images.githubusercontent.com/59730607/77153653-7e72f080-6add-11ea-83c4-4a3df3e7f76c.png">
+<img width="1440" alt="スクリーンショット 2020-03-31 19 26 17" src="https://user-images.githubusercontent.com/59730607/78016318-97a15a00-7385-11ea-9912-48f169d06037.png">
 
 ## 工夫した点
 　現在、情報の収集の８割がスマートフォンであるというデータもあります。そこでメディアクエリを用いて三つのサイズを用意してビューを対応できるようにいたしました。
